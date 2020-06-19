@@ -8,18 +8,20 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  final String title='';
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Reto 2 de Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
       ),
       home: MyHomePage(),
     );
   }
 }
+
 
 class MyHomePage extends StatefulWidget {
   MyHomePage();
@@ -41,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
           gallery(VERTICAL),
         ],
       ),
+      // Colocamos nuestro footer
       bottomNavigationBar: footerGallery(),
     );
   }

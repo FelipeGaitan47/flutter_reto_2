@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 footerGallery() {
   return BottomNavigationBar(
-    currentIndex: 0, // this will be set when a new tab is tapped
+    currentIndex: 0,
     items: [
-      footerIcon(Icons.home,'Casa'),
-      footerIcon(Icons.mail,'Correo')
+      footerIcon(Icons.home,'Home'),
+      footerIcon(Icons.mail,'Mail')
     ],
   );
 }

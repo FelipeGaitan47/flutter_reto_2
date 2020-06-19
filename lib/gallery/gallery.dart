@@ -2,14 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:reto2_0/data/constants.dart';
 import 'package:reto2_0/data/data.dart';
 
+// Configuraciones para nuestra galería
 gallery(type) {
   return Container(
     margin: EdgeInsets.only(bottom: 10),
     height: type == HORIZONTAL ? 120.0 : 400,
-    color: Colors.grey[50],
+    color: Colors.orange[50],
     child: listImages(type),
   );
 }
+
+// Instanciamos nuestras listView para que se configuren horizontal o vertical por medio de las constantes.
 
 listImages(type) {
   List imagesList = getImagesList(type);
