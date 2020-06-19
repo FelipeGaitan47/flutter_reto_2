@@ -35,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('App bar'),
       ),
       body: ListView(
+        // Hacemos el llamado de nuestras dos constantes para la orientación de nuestros listView
         children: <Widget>[
           gallery(HORIZONTAL),
           gallery(VERTICAL),

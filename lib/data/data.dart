@@ -1,17 +1,18 @@
+// Realizamos un json para hacer la lista que leerán nuestros listView
 const jsonPlaces = [
-  {'img':'assets/images/p1.jpg','t1':'Paisaje 1','t2':'Lugar paisaje 1','t3':'Des paisaje 1'},
-  {'img':'assets/images/p2.jpg','t1':'Paisaje 2','t2':'Lugar paisaje 2','t3':'Des paisaje 2'},
-  {'img':'assets/images/p3.jpg','t1':'Paisaje 3','t2':'Lugar paisaje 3','t3':'Des paisaje 3'},
-  {'img':'assets/images/p4.jpg','t1':'Paisaje 4','t2':'Lugar paisaje 4','t3':'Des paisaje 4'},
-  {'img':'assets/images/p5.jpg','t1':'Paisaje 5','t2':'Lugar paisaje 5','t3':'Des paisaje 5'}
+  {'img':'assets/imagenes/lugares/grecia.jpg','t1':'Grecia','t2':'grecia','t3':'lugar para conocer historia'},
+  {'img':'assets/imagenes/lugares/losangeles.jpg','t1':'Los Angeles','t2':'losangeles','t3':'lugar para conocer famosos'},
+  {'img':'assets/imagenes/lugares/medellin.jpg','t1':'Medellin','t2':'medellin','t3':'lugar para trabajar'},
+  {'img':'assets/imagenes/lugares/roma.jpg','t1':'Roma','t2':'roma','t3':'lugar para conocer historia'},
+  {'img':'assets/imagenes/lugares/sandiego.jpg','t1':'San Diego','t2':'sandiego','t3':'lugar para tocar punk rock'}
 ];
 
 
 const jsonCharacters = [
-  {'img':'assets/images/p6.jpg','t1':'Ragnar','t2':'12/07/1990','t3':'Des person 1'},
-  {'img':'assets/images/p7.jpg','t1':'Lagerta','t2':'12/07/1991','t3':'Des person 2'},
-  {'img':'assets/images/p8.jpg','t1':'Odin','t2':'12/07/1992','t3':'Des person 3'},
-  {'img':'assets/images/p9.jpg','t1':'Kratos','t2':'12/07/1994','t3':'Des person 4'},
-  {'img':'assets/images/p10.jpg','t1':'Hulk','t2':'12/07/1995','t3':'Des person 5'}
+  {'img':'assets/imagenes/personajes/grohl.jpg','t1':'Dave Grohl','t2':'14/01/1969','t3':'Vocal Foo Fighters'},
+  {'img':'assets/imagenes/personajes/hetfield.jpg','t1':'James Hetfield','t2':'03/08/1963','t3':'Guitarrista Metallica'},
+  {'img':'assets/imagenes/personajes/kurtcobain.jpg','t1':'Kurt Cobain','t2':'20/02/1967','t3':'Vocal Nirvana'},
+  {'img':'assets/imagenes/personajes/mark.jpg','t1':'Mark Knopfler','t2':'12/08/1949','t3':'Vocal Dire Straits'},
+  {'img':'assets/imagenes/personajes/tomdelonge.jpg','t1':'Tom Delonge','t2':'13/12/1975','t3':'Guitarrista AVA'}
 ];
 
